@@ -1,4 +1,4 @@
-package com.ambition.test;
+package com.ambition.demo;
 
 public class Test {
     public static void main(String[] args) {
