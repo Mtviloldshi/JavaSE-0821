@@ -1,5 +1,5 @@
 # JavaSE-0821-基础知识node&code
-![first](src/ambition/img/first.JPG)
+![first](src/ambition/imags/first.JPG)
 
 ## JavaSE课程主要内容为Java基础，我会把我学Java基础的笔记和代码都放在每天学习的文件夹里面
 ## 课件如下
@@ -15,7 +15,7 @@
    * day03 课件
         * [JavaSE_day03_输入输出、分支结构](./day03/src/com/ambition/curseware/JavaSE_day03_输入输出、分支结构.pdf)
         
-   * day03 课件
-        * [JavaSE_第四章_数组](src/ambition/courseware/JavaSE_第四章_数组.pdf)
+   * day04 课件
+        * [JavaSE_第四章_数组](./day04/src/com/ambition/curseware/JavaSE_第四章_数组.pdf)
 ## 心得：学而不思则罔、思而不学则殆
         
