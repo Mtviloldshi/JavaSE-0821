@@ -1,3 +1,4 @@
+```
 package com.ambition.exercise2;
 
 import java.util.Scanner;
@@ -42,3 +43,5 @@ public class Exercise1 {
 
     }
 }
+
+```

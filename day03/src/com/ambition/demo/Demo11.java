@@ -11,13 +11,12 @@ public class Demo11 {
         System.out.println("请输入年份：");
         int year = scan.nextInt();
         int day;
-
         if (year > 0) {
-            System.out.println("请输入月份");
+            System.out.println("请输入月份：");
             int month = scan.nextInt();
             if (month > 0 && month < 13) {
                 if (month == 2) {
-                    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+                    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {//是否为闰年
                         day = 29;
                     } else {
                         day = 28;
@@ -27,7 +26,7 @@ public class Demo11 {
                 } else {
                     day = 31;
                 }
-                System.out.println(year + "年\t" + month + "月\t有" + day + "天");
+                System.out.println(year + "年" + month + "月" + "有" + day + "天");
             } else {
                 System.out.println("输入月份有误！");
             }
