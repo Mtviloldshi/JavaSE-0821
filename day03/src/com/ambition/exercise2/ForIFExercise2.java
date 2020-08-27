@@ -1,10 +1,9 @@
-```
 package com.ambition.exercise2;
 
 import java.util.Scanner;
 
 /*
-    输出100以内的素数
+    输出100以内的素数 i 在[2-i)内不能整除任何数就是素数
  */
 public class ForIFExercise2 {
     public static void main(String[] args) {
@@ -45,6 +44,3 @@ public class ForIFExercise2 {
         }
     }
 }
-
-
-```
