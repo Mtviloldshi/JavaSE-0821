@@ -8,7 +8,6 @@ package com.ambition.exercise.after2;
  */
 public class CreditCard extends Bank {
     private int overdraftAmount;//透支金额
-
     public CreditCard(int count, double balance, int overdraftAmount) {
         super(count, balance);
         this.overdraftAmount = overdraftAmount;
@@ -26,6 +25,7 @@ public class CreditCard extends Bank {
         }
     }
 
+    //存款
     public void save(double money) {
         if (money > 1) {
             super.setBalance(super.getBalance() + money);
