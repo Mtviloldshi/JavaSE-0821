@@ -13,13 +13,13 @@
         * [JavaSE_第2章_Java基础语法](./day03/src/com/ambition/curseware/JavaSE_第2章_Java基础语法.pdf)
         
    * day03 课件
-        * [JavaSE_day03_输入输出、分支结构](./day03/src/com/ambition/curseware/JavaSE_day03_输入输出、分支结构.pdf)
+        * [JavaSE_第3章_输入输出、分支结构](./day03/src/com/ambition/curseware/JavaSE_day03_输入输出、分支结构.pdf)
         
    * day04 课件
-        * [JavaSE_第四章_数组](./day04/src/com/ambition/curseware/JavaSE_第四章_数组.pdf)  
+        * [JavaSE_第4章_数组](./day04/src/com/ambition/curseware/JavaSE_第四章_数组.pdf)  
         
    * day05 课件
-        * [JavaSE_第四章_数组](./day05/src/com/ambition/curseware/JavaSE_第四章_数组.pdf) 
+        * [JavaSE_第4章_数组](./day05/src/com/ambition/curseware/JavaSE_第四章_数组.pdf) 
          
    * day06 课件  
         * [JavaSE_第5章-面向对象基础(上)](./day06/src/com/ambition/curseware/JavaSE_第5章-面向对象基础(上).pdf)
