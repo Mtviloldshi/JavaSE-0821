@@ -9,6 +9,7 @@ public class CheckingAccount extends Account {
         this.overdraftProtection = overdraftProtection;
     }
 
+    @Override
     public boolean withdraw(double amt) {
         if (amt > 0) {//合法数字
                 if (amt <= getBalance()+overdraftProtection) {//小于透支金额

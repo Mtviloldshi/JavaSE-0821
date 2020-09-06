@@ -19,9 +19,17 @@ public class Bank {
         if (numberOfCustomer > customers.length) return false;
 
         customers[numberOfCustomer] = new Customer(l, f);//添加用户进数组
-        customers[numberOfCustomer].setAccount(new Account(2000));//添加账户给用户
-        numberOfCustomer++;//用户个数+1
-        return true;
+        for (;;){
+            if (CMUtility.readInt() == 0){//0 储蓄卡
+                customers[numberOfCustomer++].setAccount(new SavingsAccount(2000,0.045));//添加账户给用户
+                return true;
+            }else if (CMUtility.readInt() == 1){// 借记卡
+                customers[numberOfCustomer++].setAccount(new CheckingAccount(2000,5000));//添加账户给用户
+                return true;
+            }else {
+                return false;
+            }
+        }
     }
 
     //获取当前客户
