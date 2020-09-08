@@ -7,6 +7,7 @@
 ### 目录
    * day01 课件
         * [JDK的下载、安装与配置](./day02/src/com/ambition/courseware/JDK的下载_安装与配置.pdf)
+        
         * [JavaSE_第1章 Java概述](./day02/src/com/ambition/courseware/JavaSE_第1章_Java概述.pdf)
         
    * day02 课件
@@ -21,14 +22,20 @@
    * day05 课件
         * [JavaSE_第4章_数组](./day05/src/com/ambition/curseware/JavaSE_第四章_数组.pdf) 
          
-   * day06 课件  
+   * day06 07 课件  
         * [JavaSE_第5章-面向对象基础(上)](./day06/src/com/ambition/curseware/JavaSE_第5章-面向对象基础(上).pdf)
         
-   * day07 课件  
+   * day08 09 10 课件  
         * [JavaSE_第6章 面向对象基础(中)](./day07/src/com/ambition/curseware/JavaSE_第6章%20面向对象基础(中).pdf)
         
-   * day08 课件  
+   * day11 课件  
         * [JavaSE_第7章-面向对象基础(下)](./day08/src/com/ambition/curseware/JavaSE_第7章-面向对象基础(下).pdf)
+        
+   * day12 课件  
+        * [JavaSE_第7章-面向对象基础(下)](./day08/src/com/ambition/curseware/JavaSE_第7章-面向对象基础(下).pdf)
+        
+        * [JavaSE_第8章-异常](./day12/src/com/ambition/curseware/JavaSE_第8章-异常.pdf)
+        
         
 ## 当我们开始留恋某地风景的时候，那也说明我们该动身了
         
