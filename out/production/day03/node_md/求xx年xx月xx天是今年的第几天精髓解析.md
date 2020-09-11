@@ -1,4 +1,4 @@
-```
+```java
 package com.ambition.exercise;
 
 import java.util.Scanner;

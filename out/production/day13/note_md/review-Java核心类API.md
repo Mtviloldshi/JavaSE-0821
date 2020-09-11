@@ -45,7 +45,39 @@
 * StringBuffer && StringBuilder   常用API：略
 * StringBuffer && StringBuilder 比String的效率更高
 
-### Math类
+### 数学类
 
+* Math类
 * java.lang.Math 类包含用于执行基本数学运算的方法，如初等指数、对数、平方根和三角函数。类
   似这样的工具类，其所有方法均为静态方法，并且不会创建对象，调用起来非常简单。
+  似这样的工具类，其所有方法均为静态方法，并且不会创建对象，调用起来非常简单。
+  
+* Random 类 
+    * 包含大量创建随机数的API
+    
+* BigInteger
+    * 不可变的任意精度的整数 
+    
+* BigDecimal
+    * 不可变的、任意精度的有符号十进制数。
+    
+### 日期时间API
+
+* java.util.Date    
+    * new Date()：当前系统时间
+    * long getTime()：返回该日期时间对象距离1970-1-1 0.0.0 0毫秒之间的毫秒值
+    * new Date(long 毫秒)：把该毫秒值换算成日期时间对象
+    
+* java.util.Calendar
+    > Calendar 类是一个抽象类，它为特定瞬间与一组诸如 YEAR 、MONTH 、DAY_OF_MONTH 、HOUR 等
+      日历字段之间的转换提供了一些方法，并为操作日历字段（例如获得下星期的日期）提供了一些方法。
+      瞬间可用毫秒值来表示，它是距历元（即格林威治标准时间 1970 年 1 月 1 日的 00:00:00.000，格里高
+      利历）的偏移量。与其他语言环境敏感类一样， Calendar 提供了一个类方法 getInstance ，以获得
+      此类型的一个通用的对象。    
+    * getInstance() 获得Calendar对象
+    * get(常量) 
+
+* java.text.SimpleDateFormat    
+    * SimpleDateFormat用于日期时间的格式化。 
+    * SimpleDateFormat sm = new SimpleDateFormat("yyyy年MM月dd日 HH点mm分ss秒 E");
+    * sm.format(date)                 
