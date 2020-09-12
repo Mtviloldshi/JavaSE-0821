@@ -38,7 +38,7 @@
    * day12 13 14课件  
         * [JavaSE-第9章-核心类及API](./day13/src/com/ambition/curseware/JavaSE-第9章-核心类及API.pdf)
         
-   * day12 13 14课件  
+   * day15课件  
         * [JavaSE_第10章-集合](./day15/src/curseware/JavaSE_第10章-集合.pdf)
         
         
