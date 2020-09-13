@@ -25,15 +25,21 @@ public class MapDemo2 {
         System.out.println("请输入学生名字：");
         String name = can.next();
         Collection<List<Student>> values = map.values();
+        //获得Collection迭代器
         Iterator<List<Student>> iterator = values.iterator();
-        int i = 0;
-            while (iterator.hasNext()){
-                if (iterator.next().get(i).getName().equals(name)){
-                    System.out.println("是");
+        while (iterator.hasNext()){
+            //活得每一个list迭代器
+            List<Student> next = iterator.next();
+            //获得Student对象
+            Iterator<Student> iterator1 = next.iterator();
+            while (iterator1.hasNext()){
+                //判断对象
+                if (name.equals(iterator1.next().getName())){
+                    System.out.println("是本班学生");
                     return;
                 }
-                i++;
             }
+        }
         System.out.println("不是！");
     }
 }
