@@ -12,7 +12,7 @@ import java.net.Socket;
  */
 public class Client {
     public static void main(String[] args) throws Exception {
-        Socket socket = new Socket("192.168.19.40",8888);
+        Socket socket = new Socket("192.168.19.49",8888);
 
         File file = new File("D:/网抑云.jpg");
         String fileName = file.getName();
